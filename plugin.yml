@@ -1,0 +1,17 @@
+name: ShopPE
+
+main: ShopPE\Main
+
+version: 1.0.0-BETA2
+
+api: [3.0.0, 4.0.0]
+
+author: FutureCraft Team
+
+description: advanced shop plugin for servers!
+
+commands:
+
+ shop:
+
+  description: Opens the GUI for FutureCraft.
