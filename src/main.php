@@ -26,11 +26,11 @@ use pocketmine\network\mcpe\protocol\PacketPool;
 
 use pocketmine\event\server\DataPacketReceiveEvent;
 
-use GuiShop\Modals\elements\{Dropdown, Input, Button, Label, Slider, StepSlider, Toggle};
+use ShopPE\Modals\elements\{Dropdown, Input, Button, Label, Slider, StepSlider, Toggle};
 
-use GuiShop\Modals\network\{GuiDataPickItemPacket, ModalFormRequestPacket, ModalFormResponsePacket, ServerSettingsRequestPacket, ServerSettingsResponsePacket};
+use ShopPE\Modals\network\{GuiDataPickItemPacket, ModalFormRequestPacket, ModalFormResponsePacket, ServerSettingsRequestPacket, ServerSettingsResponsePacket};
 
-use GuiShop\Modals\windows\{CustomForm, ModalWindow, SimpleForm};
+use ShopPE\Modals\windows\{CustomForm, ModalWindow, SimpleForm};
 
 use pocketmine\command\{Command, CommandSender, ConsoleCommandSender, CommandExecutor};
 
